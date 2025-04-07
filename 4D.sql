@@ -1,0 +1,1 @@
+SELECT s.StudentId, s.Name AS StudentName, s.City, c.CourseId, c.Name AS CourseName, c.LecturerName FROM Students s JOIN Courses c ON s.CourseId = c.CourseId;
